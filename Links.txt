@@ -1,0 +1,88 @@
+AT&T Archives: Similiarities of Wave Behavior - https://www.youtube.com/watch?v=DovunOxlY1k
+http://whiteboard.ping.se/SDR/IQ
+http://en.wikipedia.org/wiki/Quadrature_amplitude_modulation
+http://www.ieee.li/pdf/essay/quadrature_signals.pdf
+
+Software Defined Radio with HackRF by Michael Ossmann - https://greatscottgadgets.com/sdr/
+Basics of IQ Signals and IQ modulation & demodulation by w2aew  - https://www.youtube.com/watch?v=h_7d-m1ehoY
+http://groups.csail.mit.edu/netmit/sFFT/algorithm.html
+
+
+https://github.com/EliasOenal/multimon-ng - Decoder
+http://kmkeen.com/rtl-demod-guide/ - RTL_FM Guide
+http://sdr.osmocom.org/trac/wiki/rtl-sdr - Osmocom Wiki
+http://kmkeen.com/rtl-power/ - RTL_POWER Guide
+https://www.youtube.com/watch?v=JVGf28ckHyg - http://www.byonics.com/tdoa/ - TDOA Antenna
+http://www.antenna-theory.com - Great resource for Antenna types
+http://www.rtl-sdr.com - SDR Blog
+http://www.rtl-sdr.com/roundup-software-defined-radios/
+http://www.reddit.com/r/rtlsdr - SDR Subreddit
+http://www.reddit.com/r/amateurradio - Amateurradio Subreddit
+https://greatscottgadgets.com/sdr/ - SDR Tutorial Series
+http://www.sigidwiki.com/wiki/Signal_Identification_Guide - Signal Wiki 
+http://superkuh.com/rtlsdr.html - SDR Blog
+https://www.radioreference.com - Frequency Lookup
+http://www.n2yo.com - Satellite Tracking / Prediction
+http://aprs.fi/ - APRS Tracking Map
+http://www.sdrsharp.com - Windows Software
+https://hamstudy.org - Amateur Radio Study Guide
+http://sdr.osmocom.org/trac/wiki/rtl-sdr - RTL-SDR wiki
+https://satnogs.org/ - Satellite Networked Open Ground Station - DIY Ground Station
+http://www.websdr.org - Web Based SDR’s from around the globe - Mostly HF coverage
+http://www.repeaterbook.com - Repeater directory for Amateur Radio
+http://www.gnuradio.org - Linux based tool kit for DSP / SDR
+http://www.sm5bsz.com - https://www.youtube.com/channel/UClmNy6VRE1YqOeBHwb3o0Yg - Advanced RF / SDR Topics
+https://www.youtube.com/user/balint256/ - Advanced SDR Topics / Cyberspectrum
+http://www.youtube.com/user/9a4qv -  Adam Alicajic - Advanced RF Topics / LNA4ALL creator
+http://www.reddit.com/r/RTLSDR/comments/1le3if/so_i_discovered_that_my_hp_laptop_leakstransmits/ - Leaky laptop mic
+Using a PC sound card to receive VLF radio signals by vwestlife - https://www.youtube.com/watch?v=L2W1x6Rb9hI
+http://amsat-uk.org/2015/03/31/iss-sstv/ - ISS SSTV 
+http://fringes.org/ - Radio Astronomy
+http://www.sbrac.org/files/budget_radio_telescope.pdf - Radio Astronomy
+http://www.reddit.com/r/RTLSDR/comments/1et6ej/fun_with_hydrogen/ - Radio Astronomy
+
+IRC - freenode - ##rtlsdr #gnuradio #hamradio
+
+Hardware
+---------
+AirSpy - http://airspy.com/
+SDRPlay - http://www.sdrplay.com/
+BladeRF - http://nuand.com/
+HackRF - https://greatscottgadgets.com/hackrf/
+Ettus / USRP - http://www.ettus.com/ 
+Amazon - RTL-SDR Blog - Dongles, Connector Kits
+Ebay
+http://www.nooelec.com - SDR hardware resource
+http://www.ebay.com/usr/chuckwa3iac - PA0RDT Mini Whip Antenna Kits
+http://www.wa5vjb.com/ - High quality inexpensive Log Periodic Antennas
+
+Credits
+---------
+http://en.wikipedia.org/wiki/Software-defined_radio
+http://en.wikipedia.org/wiki/File:Sine_waves_different_frequencies.svg
+http://commons.wikimedia.org/wiki/File:United_States_Frequency_Allocations_Chart_2003_-_The_Radio_Spectrum.jpg
+http://en.wikipedia.org/wiki/Radio_spectrum
+http://en.wikipedia.org/wiki/Electromagnetic_spectrum
+http://en.wikipedia.org/wiki/Single-sideband_modulation
+http://en.wikipedia.org/wiki/Frequency-shift_keying
+http://en.wikipedia.org/wiki/Modulation
+http://en.wikipedia.org/wiki/Software-defined_radio
+http://www.learnabout-electronics.org/Amplifiers/amplifiers10.php
+http://www.see.ed.ac.uk/~jwp/control06/controlcourse/restricted/course/advanced/module7-1.html
+http://en.wikipedia.org/wiki/Single-sideband_modulation
+http://www.hamradioschool.com/the-superheterodyne-receiver-frequency-mixing-and-the-intermediate-frequency/
+http://www.voxmaris.com.ar/en/hf
+http://www.britannica.com/EBchecked/topic/585825/telecommunications-media/76247/Radio-wave-propagation
+http://dontbearefugee.com
+http://www.rtl-sdr.com/roundup-software-defined-radios/
+http://www.zerofive-antennas.com/
+http://en.wikipedia.org/wiki/Jim_Creek_Naval_Radio_Station
+http://www.universal-radio.com/
+http://www.jpole-antenna.com/
+http://www.radio-electronics.com/
+http://en.wikipedia.org/wiki/Angular_diameter
+https://cimss.ssec.wisc.edu/satmet/modules/2_weather_satellites/ws-2.html
+http://www.strymon.net/2011/01/12/rotary-speaker-technology-white-paper/
+http://ryanmarciniak.com/archives/tag/doppler
+http://en.wikipedia.org/wiki/High_resolution_picture_transmission
+
