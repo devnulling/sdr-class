@@ -1,0 +1,89 @@
+Mac
+---------------
+install macports https://www.macports.org/
+Install XCode
+xcode-select --install
+port install rtl-sdr
+port install gqrx
+sudo port install gnuradio +grc +swig +wxgui +qtgui +python27 +quartz -x11
+sudo port install gr-osmosdr
+sudo port install gr-fosphor
+
+#to run gqrx 
+gqrx 
+
+#to run osmocom_fft with gr-fosphor (stop gqrx first) 
+osmocom_fft -F 
+
+
+
+linux - ubuntu & debian 
+------------------------
+sudo apt-get update
+sudo apt-get install git cmake libusb-1.0-0.dev build-essential
+
+mkdir ~/sdr
+cd ~/sdr
+
+git clone git://git.osmocom.org/rtl-sdr.git
+cd rtl-sdr/
+mkdir build
+cd build
+cmake ../ -DINSTALL_UDEV_RULES=ON
+make
+sudo make install
+sudo ldconfig
+
+#create blacklist file and add 3 lines
+
+sudo nano /etc/modprobe.d/rtlsdr-blacklist.conf
+
+blacklist dvb_usb_rtl28xxu
+blacklist rtl2832
+blacklist rtl2830
+
+#EOF for blacklist file
+
+
+cd ~/sdr
+git clone git://github.com/pybombs/pybombs
+cd pybombs
+./app_store.py
+
+
+# Edit GQRX recipe in new terminal window
+
+nano ~/sdr/pybombs/recipes/gqrx.lwr
+
+change line 28 from
+    qmake BOOST_SUFFIX=-mt
+
+to 
+    qmake BOOST_SUFFIX=
+
+
+# Install RTL-SDR, gr-osmosdr, gqrx, gnuradio by clicking on icons within app_store gui. 
+
+./pybombs env
+source $prefix/setup_env.sh
+
+#add source line to .bashrc -- change path to your user
+echo "source /home/user/sdr/target/setup_env.sh" >> ~/.bashrc
+
+# to run gqrx
+gqrx
+
+
+
+windows
+-----------
+Full guide: http://www.rtl-sdr.com/rtl-sdr-quick-start-guide/
+
+Additional links for zadig and .net framework
+http://www.sdrsharp.com/#download
+http://www.microsoft.com/en-gb/download/details.aspx?id=21
+http://zadig.akeo.ie/
+
+# in Zadig select: Bulk-In, Interface (Interface 0)
+
+
