@@ -1,3 +1,9 @@
+Live CD/DVD/USB Linux distros with SDR tools preinstalled:
+----------
+Kali - https://www.kali.org/downloads/
+GNURadio Live DVD: https://gnuradio.org/redmine/projects/gnuradio/wiki/GNURadioLiveDVD
+Pentoo: http://pentoo.ch/
+
 Mac
 ---------------
 install macports https://www.macports.org/
